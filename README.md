@@ -7,6 +7,7 @@ When configured properly your raspberry pi (when it's booted) will turn on and l
 
 No need to use or launch a GUI!
 
+I've written this file to be somewhat beginner-friendly by telling you (barely) how to use Nano and explaining how to do some things that more advanced users will already know. Feel free to roll your eyes and skip over my explanations.
 
 Items Needed
 ============
