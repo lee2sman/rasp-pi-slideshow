@@ -36,12 +36,12 @@ http://www.raspberrypi.org/downloads/
 3.  Open your terminal up.
 4.  Figure out which disk is your sd card. (If on a mac you run diskutil)
 `diskutil list`
-MAKE SURE YOU FIGURE OUT WHICH ONE EXACTLY IS THE SD CARD AND NOTE WHICH DISK THIS IS (for example disk4, not disk4s1, definitely not disk0 and probably not disk1)
-5.  Unmount the sd card
-`unmount /dev/disk4 #remember to place disk4 with your proper disk number`
+MAKE SURE YOU FIGURE OUT WHICH ONE EXACTLY IS THE SD CARD AND NOTE WHICH DISK THIS IS (for example disk4, not disk4s1, definitely not disk0 and probably not disk1). The usual caveat here is that if you accidentally unmount and write on top of your own computer's system, you'll be sad and it's not reversible, so don't do that.
+5.  Unmount the correct sd card
+`unmount /dev/disk4 #remember to replace disk4 with your proper disk number`
 6.  copy the iso image of raspbian to your sd card
 `sudo dd if=file_name_with_location_of_raspbian.img of=/dev/rdisk4 bs=1M`
-7.  Wait a long time but not as long as if you hadn't typed r before disk4. Using raw formatting makes it much much faster.
+7.  Wait about 5-10 minutes for it to write to the SD card. This may seem like a while but it's not as long as if you hadn't typed r before disk4. Using raw formatting makes it much much faster.
 8.  When the terminal prompt reappears it's done formatting to the sd card. Eject the sd card now.
 9.  Build your pi. Plug in keyboard, monitor, ethernet cable to your router, then power and wait for it to start.
 
