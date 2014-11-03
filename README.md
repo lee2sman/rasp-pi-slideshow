@@ -8,7 +8,7 @@ When configured properly your raspberry pi (when it's booted) will turn on and l
 No need to use or launch a GUI!
 
 
-ITEMS NEEDED
+Items Needed
 ============
 * Raspberry Pi computer (any model. case optional)
 * SD Card (2gb or greater)
@@ -20,14 +20,14 @@ ITEMS NEEDED
 * SD card reader
 * thumb drive to move images from your computer to the pi
 
-OVERVIEW OF PROCEDURE
+Overview of procedure
 =====================
 * Download and install raspbian operating system
 * Copy over images to the pi's sd card
 * Configure the pi
 * Run it
 
-INSTALL OPERATING SYSTEM
+Install Operating System
 ========================
 1.  There are numerous ways to do this. Here's one. Download and unzip the Raspbian operating system from this page
 http://www.raspberrypi.org/downloads/
